@@ -1,0 +1,4 @@
+RewriteEngine on 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?eventsdragon.com [NC] 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?eventsdragon.com.*$ [NC] 
+RewriteRule \.(gif|jpg|png|jpeg|pdf|doc|docx|xls)$ - [F]

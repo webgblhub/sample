@@ -1,0 +1,438 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* navigation */
+header {
+  background-color: #e3e2e0;
+}
+main{
+    width: 100%;
+    margin:0px auto;
+    min-height: 100%;
+    overflow: auto;
+   margin-bottom: -30px;
+  }
+
+.image-wall{
+  background-image: url('../../../uploads/log-sec-wallapper.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  width:100%;
+  padding-bottom: 30px;
+}
+.input-wrap{
+  overflow: hidden;
+ /* margin-top: 30px;
+  margin-bottom: 30px;*/
+}
+.header-sub-bg{
+  background: rgb(252,252,252);
+  background: linear-gradient(103deg, rgba(252,252,252,0) 0%, rgba(252,252,252,1) 11%, rgba(253,253,253,1) 84%, rgba(254,254,254,0) 100%);
+  width: 350px;
+  height: 100%;
+  position: absolute;
+  opacity: .9;
+  z-index: -2;
+}
+  .successfn
+{
+    margin:0px auto;
+    /* border: 2px; */
+    /* background-color: #a09f9c; */
+    color: #ac81bd;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 1%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.success_div
+{
+   background: #e3e2e0;
+    margin-top: 2%;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    width: 400px;
+    margin:auto;
+}
+
+
+
+.top-header{
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.logo img{
+  width: 400px;
+  margin-bottom:9px;
+}
+.top-nav-bar{
+  width: 300px;
+}
+.top-nav-inp{
+  width: 100%;
+  height: 40px;
+  float: right;
+  border: none;
+  border-bottom: 1px solid #7F569F;
+  background: #fff;
+  outline: none;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 31px;
+}
+.header-fext-wrap {
+  display: inline-flex;
+  margin-top: 10px;
+  float: right;
+}
+.header-fext-wrap label {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.label-text {
+  padding-top: 20px;
+  color: #7F569F;
+}
+.sect-header {
+  width: 300px;
+  margin-left: 5px;
+}
+
+
+/* input contents */
+
+.input-form-label{
+  position:relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  top:20px;
+  display: none;
+  width: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.input-main{
+  width: 340px;
+  position: relative;
+ padding:10px;
+ top:160px;
+ left:65%;
+ border-bottom:2px solid #7F569F;
+ transform: translate(-50%,-50%);
+ background-color: #e3e2e0;
+
+ -webkit-box-shadow: 17px 12px 41px -11px rgba(0,0,0,0.52);
+-moz-box-shadow: 17px 12px 41px -11px rgba(0,0,0,0.52);
+box-shadow: 17px 12px 41px -11px rgba(0,0,0,0.52);
+z-index: 2;
+}
+.login_input_main
+{
+  padding-bottom: 63px !important;
+}
+.forgot_input_main
+{
+  padding-bottom: 140px !important;
+}
+
+.forgot-container
+{
+  margin-top: 8%;
+}
+.forgot-label
+{
+  margin-left: 5%;
+}
+
+.footer_padding_log
+{
+  margin-top: 26px !important;
+}
+.sign-label h2{
+  padding-left:10px;
+  padding-top: 10px;
+}
+.sign-label span{
+  padding-left:10px;
+  padding-bottom: 10px;
+}
+.sign-label{
+  position: relative;
+  top:220px;
+  left:130px;
+  color:#368698;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  z-index: 2;
+}
+.sign-class{
+  display: none;
+}
+.signin-container-wrap{
+  font-size: 17px;
+ 
+  padding-bottom: 10px;
+}
+.line i{
+  position: relative;
+  top: -19px;
+  float: right;
+  padding-right:8px;
+  opacity: .5;
+ 
+}
+.inp{
+  width: 100%;
+  height: 37px;
+  outline: none;
+  position: relative;
+  top: 40px;
+  padding-left:6px;
+  margin-top:-40px;
+  border: .8px solid #5e5c5c;
+}
+.input-container{
+ padding-left:15px;
+ padding-right:15px;
+}
+.input-container label{
+  position: relative;
+  top: 10px;
+  padding-left:10px;
+  transition: all .2s;
+  pointer-events: none;
+  opacity: .8;
+}
+
+/* input focus hover */
+.inp:focus ~ label,
+.inp.valid ~ label{
+  top: -25px;
+  font-size: 14px;
+  opacity: .9;
+  color:#7b3bac;
+}
+/* check box */
+.checkbox-conatiner{
+  width: 100%;
+  padding-left:15px;
+  padding-right:15px;
+  display: inline-flex;
+  align-items: baseline;
+  position: relative;
+  top: 25px;
+}
+.checkbox-conatiner label{
+  font-size: 15px;
+  margin-left: 5px;
+}
+/* Buttton Styling*/
+.btn-container{
+  width: 100%;
+  text-align: center;
+  padding-left:15px;
+  padding-right:15px;
+  margin-top:40px;
+}
+
+#signup-btn{
+  border:none;
+  outline: none;
+  width: 100%;
+  height: 45px;
+  font-size: 16px;
+  cursor: pointer;
+  background:#7F569F;
+  color:#fff;
+  font-weight: 400;
+  transition:all .3s ;
+}
+#signup-btn:hover{
+  background:#9f69c9;
+}
+.signin-container{
+  margin-top: 30px;
+  width: 100%;
+}
+.signin-container label{
+  padding-left:15px;
+  padding-right:15px;
+}
+#sign-req{
+  color:#7F569F;
+}
+
+/* footer */
+
+/* footer */
+.footer-row{
+  padding-bottom:30px;
+ }
+ .footer-cont{
+   display: inline-block;
+     margin: 0px auto;
+ margin-top: auto;
+     width: 100%;
+     background-color: #e3e2e0;
+ }
+ .social-icons i{ 
+   margin-top:30px;
+   font-size: 17px;
+   padding-left:6px;
+   padding:6px;
+   border-radius: 50px;
+   margin-left:3px;
+   transition:.3s ease;
+ }
+ .social-icons #tiktok{ 
+   margin-top:-4px;
+   font-size: 17px;
+   padding-left:6px;
+   padding:6px;
+   border-radius: 50px;
+   margin-left:3px;
+   transition:.3s ease;
+ }
+ .cont{
+   position: absolute;
+   border: 1px solid #000;
+   top: 30px;
+ }
+ .tiktok{
+   width: 20px;
+   height: 20px;
+   background: #000;
+   border-radius: 50px;
+   font-size: 17px;
+ }
+ .item .svg-tiktok{
+   fill: #fff;
+   width: 8rem;
+   height: 8rem;
+   transform: translateY(1rem);
+ }
+ .facebk i{
+ padding-right:10px;
+ padding-left:10px;
+ text-align: left;
+ background-color: #4267B2;
+ color:#fff;
+ }
+ .twitter i{
+   background-color: #0081a5;
+   color:#fff;
+ }
+ .footer-text-cont{
+   font-size: 15px;
+   margin-top:30px;
+  /* float: right;*/
+ }
+ .ytbe i{
+   background-color:  #ff0000;
+   color: #fff;
+ }
+ .insta i {
+   background: #d6249f;
+   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+   box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+   color: #fff;
+   padding-right:7.5px;
+   padding-left:7.5px;
+ }
+ .pintrest i{
+   padding-right:7.5px;
+   padding-left:7.5px;
+   background-color: #E60023;
+   color: #fff;
+ }
+ .snapchat i{
+   background-color: #FFFC00;
+   columns: #fff;
+   padding-left:8px;
+  padding-right: 8px;
+  font-size: 18px;
+ }
+ .tiktok{
+   width: 30px;
+   height: 30px;
+   margin-top: -4px;
+ }
+ .linkedin i{
+   padding-right:8px;
+ padding-left:8px;
+ font-size:17px;
+ background-color:#2867B2;
+ color: #fff;
+ }
+
+/*  Media Query */
+@media screen and (max-width: 997px) {
+  .sign-label {
+    left:0px;
+  }
+  .input-main {
+    left: 70%;
+  }
+}
+@media screen and (max-width: 766px) {
+
+.success_div {
+ width: 65%;
+}
+.successfn{
+ font-size: 16px;
+}
+
+.input-main{
+    width: 100%;
+    left:50%;
+  }
+  .input-form-label{
+    display: block;
+  }
+  .social-icons{
+    font-size: 18px;
+    text-align: center;
+  }
+  .footer-text-cont{
+   text-align: center;
+    float: none;
+  }
+  .logo img {
+    margin-left:5px;
+    width: 100%;
+}
+.sign-class{
+  display: block;
+}
+.signin-container-wrap{
+  font-size: 17px;
+  display: none;
+}
+footer {
+  margin-top: 30px;
+  background-color: #e3e2e0;
+}
+.top-nav-bar {
+   width:100%;
+}
+nav{
+  display: block;
+  padding-left:15px;
+  padding-right: 15px;
+}
+}
+/*# sourceMappingURL=style.css.map */

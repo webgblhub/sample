@@ -1,0 +1,361 @@
+span.input-error {
+    color: #dd4b39;
+    font-size: 10px;
+    font-weight: 600;
+    position: relative;
+    top: 5px;
+}
+
+.forgot-password {
+	line-height: 33px;
+    float: right;
+    font-size: 12px;
+}
+
+p.Signup {
+    /* text-align: center; */
+    font-size: 13px;
+    margin: 0 0 5px;
+}
+
+button.form-btn {
+    margin: 0 5px;
+}
+
+.btn{
+    padding: 6px 12px 4px;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #3F51B5 !important;
+    border-color: #3F51B5 !important;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #3F51B5 !important;
+    border-color: #3F51B5 !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #2c3986 !important;
+    border-color: #2c3986 !important;
+}
+
+.dataTables_filter label {
+	background: #ebeeff;
+    padding: 2px 2px 2px 8px;
+    border-radius: 3px;
+    margin-bottom: 0;
+    color: #3F51B5;
+}
+
+.dataTables_length label {
+	background: #ebeeff;
+    padding: 2px 10px;
+    border-radius: 3px;
+    margin-bottom: 0;
+    color: #3F51B5;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #3F51B5 !important;
+    border-color: #3F51B5 !important;
+}
+
+thead {
+    background: #3F51B5;
+}
+
+th {
+    color: #fff;
+}
+
+a.btn.btn-xs.btn-primary.clone {
+    position: absolute;
+    top: 8px;
+    left: 8em;
+    padding: 1px 5px 0px;
+    border-radius: 2px;
+}
+
+a.btn.btn-sm.btn-box {
+    padding: 1px 8px 0;
+    position: relative;
+    background: #3F51B5;
+    border-radius: 2px;
+    top: -2px;
+    float: right;
+    color: #fff;
+    border: 1px solid #3F51B5;
+}
+
+a.options i {
+    color: #fff;
+    font-size: 12px;
+    line-height: 21px;
+    padding: 0px 5px;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+a.edit i {
+    background: #007bff;
+}
+
+a.delete i {
+    background: #d82b2b;
+}
+
+a.status i.fa-thumbs-up {
+    background: #65b70a;
+}
+
+a.status i.fa-thumbs-down {
+    background: #ff8a10;
+}
+
+a.view-photo {
+    float: right;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+}
+
+.featured_photo {
+    width: 100%;
+    padding: 6px;
+    border: 1px dashed #e8e8e8;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.featured_photo_list {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    border: 1px dashed #e8e8e8;
+    border-radius: 100px;
+}
+
+.count-label {
+    position: relative;
+    top: 2px;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.bg-imagery
+{
+    background: #e6e6e6;
+    margin-bottom: 2px;
+}
+
+.small-box.bg-imagery .inner {
+    padding: 3px;
+}
+
+.imagery-item {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.imagery {
+    padding: 10px 25px;
+    height: 390px;
+}
+
+
+.image-dlt {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    background: #ff2e2e;
+    width: 16px;
+    height: 16px;
+    padding: 0 3.5px;
+    border-radius: 0 0 0 4px;
+    box-shadow: -1px 1px 6px #00000047;
+    display: none;
+}
+
+.image-dlt i.fa {
+    color: #fff;
+    font-size: 11px;
+    position: relative;
+    top: -1.5px;
+}
+
+.modal-header, .modal-footer {
+    padding: 10px 15px !important;
+}
+
+.modal-header .close {
+    margin-top: 3px !important;
+}
+
+.modal-body.imagery {
+    max-height: 360px;
+    overflow-y: scroll;
+}
+
+.border{
+    background: #ffffff;
+    box-shadow: 0px 0px 0px 2px #006de2;
+}
+
+@media (min-width: 768px)
+{
+    .modal-dialog {
+        width: 960px !important;
+    }
+}
+
+.imagery-aside {
+    margin: 5px 0;
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.imagery-preview img {
+    border: 3px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.imagery-link
+{
+    font-size: 12px;
+    padding: 0px 6px;
+    height: 25px;
+}
+
+form.sidebar-form {
+    padding: 5px;
+}
+
+button#search-btn {
+    border: 2px solid #dddddd;
+}
+
+span.logo-lg {
+    color: #3F51B5;
+}
+
+span.logo-mini {
+    color: #3F51B5;
+}
+
+.slimScrollDiv {
+    background: white;
+}
+
+ul.sidebar-menu.tree li i.fa {
+    color: #adaaaa;
+}
+
+ol.breadcrumb li a i.fa {
+    color: #F44336;
+}
+
+ul.sidebar-menu li.active {
+    background: #e6e6e6;
+}
+
+ul.treeview-menu li.active {
+    background: #f3f3f3;
+}
+
+ul.treeview-menu li.active a {
+    color: #3F51B5;
+    font-weight: 600;
+}
+
+li.header {
+    background: #ebeeff;
+    line-height: 5px;
+    padding: 11px !important;
+    font-weight: 600;
+    color: #3F51B5;
+}
+
+.paginate_button a {
+    background: #ebeeff !important;
+    border: 1px solid #3F51B5 !important;
+    color: #3F51B5 !important;
+}
+
+li.paginate_button.active a {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+footer.main-footer strong a {
+    color: #3F51B5;
+}
+
+a.btn.btn-default.btn-flat.sign-out {
+    background: #3F51B5;
+    border: 1px solid #3F51B5;
+    color: #fff !important;
+}
+
+.small-box h3 {
+    font-size: 17px;
+}
+
+.bg-white {
+    background-color: #fff;
+    color: #2b2828;
+}
+
+.bg-white:hover {
+    color: #2b2828;
+}
+
+.small-box.bg-white .small-box-footer {
+    background: #ebeeff;
+    color: #3F51B5;
+}
+
+.image-copy {
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    background: #3F51B5;
+    height: 18px;
+    padding: 1.5px 3.5px;
+    border-radius: 0 4px 0 0;
+    box-shadow: 3px -2px 8px #00000047;
+    display: none;
+}
+
+.imagery-item-copy, i.fa.fa-files-o, i.fa.fa-check {
+    color: #fff;
+    font-size: 11px;
+    position: relative;
+    top: -1.5px;
+}
+
+a.imagery-item-copy:hover {
+    color: #fff;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////   arstyle    //////////////////////////////////////////////////////////////*/
+
+span.charlen {
+    float: right ;
+    font-size: 11px ;
+}
+
+@media (max-width: 991px)
+{
+  div#example1_wrapper .row .col-sm-12 {
+      overflow: scroll;
+      width: 94%;
+  }
+}

@@ -1,0 +1,30 @@
+  .arf-warning
+        {
+           color: #f1c40f !important;
+           font-size: 17px;
+        }
+        .arf-primary
+        {
+           color:#059603 !important;
+           font-size: 17px;
+        }
+        .arf-inverse-info
+        {
+           color: #3498DB !important;
+           font-size: 17px;
+        }
+        .arf-inverse-danger
+        {
+           color: #e74c3c !important;
+           font-size: 17px;
+        }
+         .arf-inverse-primary
+        {
+           color: #1abc9c !important;
+           font-size: 17px;
+        }
+        .side_bar
+        {
+          height: 795px !important;
+        }
+       
